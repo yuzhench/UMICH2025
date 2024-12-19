@@ -134,3 +134,35 @@ footer {
     width: 90%;
     margin: 0 auto;
 }
+
+
+
+/* protection content */
+.hidden {
+    display: none;
+}
+
+
+/* log in section  */
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+#login-form input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+#login-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+.extra-space {
+    margin-top: 20px; /* Adjust the spacing as desired */
+}
