@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course 1 Topics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Course 1 - Lecture Topics</h1>
+    </header>
+    <main>
+        <div class="categories-container">
+            <div class="category">
+                <h2>Lectures</h2>
+                <div class="topics-container">
+                    <button onclick="navigateTo('resources/EECS183/计算机网课笔记.pdf')">online course self_learn</button>
+                </div>
+            </div>
+            
+            <div class="category">
+                <h2>Past Practice Exams</h2>
+                <div class="topics-container">
+                    <button onclick="window.open('resources/EECS183/F19 Exam 2.pdf', '_blank')">F19 Exam2</button>
+                    <button onclick="window.open('resources/EECS183/F21-EECS183-Exam2.pdf', '_blank')">F21 Exam2</button>
+
+                    <button onclick="window.open('resources/EECS183/Winter_2019_Exam_2.pdf', '_blank')">W19 Exam2</button>
+                    <button onclick="window.open('resources/EECS183/W20_Exam2.pdf', '_blank')">W20 Exam2</button>
+                    <button onclick="window.open('resources/EECS183/W21_EECS183_E2-Vegetable.pdf', '_blank')">W21 Exam2</button>
+ 
+                     
+                    <button onclick="window.open('resources/EECS183/F21-EECS183-Exam2-Solutions.pdf', '_blank')">F21 Exam2 solution</button>
+
+                </div>
+            </div>
+
+            <div class="category">
+                <h2>Online Source</h2>
+                <div class="topics-container">
+                    <button onclick="window.open('https://www.w3schools.com/cpp/default.asp', '_blank')">Online Source</button>               
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 My Courses</p>
+    </footer>
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>

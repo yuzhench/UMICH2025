@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Categories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Course Categories</h1>
+    </header>
+    <main>
+        <div class="course_types">
+            <!-- EECS Category -->
+            <div class="category">
+                <h2>EECS</h2>
+                <div class="button-container">
+                    <button onclick="navigateTo('EECS183.html')">EECS183</button>
+                    <button onclick="navigateTo('EECS201.html')">EECS201</button>
+                    <button onclick="navigateTo('EECS203.html')">EECS203</button>
+                    <button onclick="navigateTo('EECS215.html')">EECS215</button>
+                    <button onclick="navigateTo('EECS270.html')">EECS270</button>
+                    <button onclick="navigateTo('EECS280.html')">EECS280</button>
+                    <button onclick="navigateTo('EECS281.html')">EECS281</button>
+                    <button onclick="navigateTo('EECS370.html')">EECS370</button>
+                    <button onclick="navigateTo('EECS373.html')">EECS373</button>
+                    <button onclick="navigateTo('EECS442.html')">EECS442</button>
+                    <button onclick="navigateTo('EECS445.html')">EECS445</button>
+                    <button onclick="navigateTo('EECS471.html')">EECS471</button>
+                    <button onclick="navigateTo('EECS473.html')">EECS473</button>
+                </div>
+            </div>
+            
+            <!-- Math Category -->
+            <div class="category">
+                <h2>Math</h2>
+                <div class="button-container">
+                    <button onclick="navigateTo('course4.html')">Course 4</button>
+                    <button onclick="navigateTo('course5.html')">Course 5</button>
+                </div>
+            </div>
+            
+            <!-- Physics Category -->
+            <div class="category">
+                <h2>Physics</h2>
+                <div class="button-container">
+                    <button onclick="navigateTo('course6.html')">Course 6</button>
+                    <button onclick="navigateTo('course7.html')">Course 7</button>
+                </div>
+            </div>
+            
+            <!-- Chemistry Category -->
+            <div class="category">
+                <h2>Chemistry</h2>
+                <div class="button-container">
+                    <button onclick="navigateTo('course8.html')">Course 8</button>
+                    <button onclick="navigateTo('course9.html')">Course 9</button>
+                    <button onclick="navigateTo('course10.html')">Course 10</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Courses</p>
+    </footer>
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
