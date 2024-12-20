@@ -54,6 +54,12 @@ main {
     padding-bottom: 0.5em;
 }
 
+.solid-border {
+    border-bottom: 2px solid #ddd;
+    width: 100%;
+    margin: 1em 0; /* Optional: Adds spacing above and below the line */
+}
+
 /* Button Container */
 .button-container {
     display: grid;
